@@ -1,10 +1,9 @@
 # code-challenge
 
 TITLE:code-challenge1
-Quick Review: To fork this
-
-click the Fork icon in the upper right of this page. This will bring you to GitHub. You may be prompted to choose where to fork — choose your personal GitHub account.
-Once your fork is created, click the Code button in GitHub, choose SSH and copy the provided git URL info.
+Quick Review:
+to create a new repository
+go to your github account create new repository then click on the code tab and copy the USH url
 Clone to your local machine with git clone followed by the git URL you copied. This will create a folder in the location you're currently in containing your fork of this lab's repository.
 cd into the repository that you just cloned down in the terminal, then run code . to open the files in Visual Studio Code.
 create three folders where you will work on your code challenge
@@ -25,8 +24,10 @@ NB: Use KRA, NHIF, and NSSF values provided in the link below.
 https://www.aren.co.ke/payroll/taxrates.htmLinks to an external site.
 
 https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye
+
+After your done
 push your work by running; git add .
-git commit -m "commit message"
-git push
+git commit -m "commit message"(changes that you had made)
+git push (pushing your local work to the github repository)
 "author"
 "sheldon Mwangi"
