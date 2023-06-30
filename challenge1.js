@@ -23,3 +23,7 @@ function gradeMarks(marks) {
 
 //prompts user to input using prompt-sync extension because it is the stack required
 const prompt = require("prompt-sync")();
+const marks = prompt("Enter student marks");
+
+console.log(Number(marks));
+console.log(gradeMarks(Number(marks)));

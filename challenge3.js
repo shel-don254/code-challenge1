@@ -38,7 +38,7 @@ return deduction;
 {
 }
 //NSSF
-function caalculatePensionablePaytier(pay) {
+function calculatePensionablePaytier(pay) {
   return pay * 0.06;
 }
 //Tax rates
