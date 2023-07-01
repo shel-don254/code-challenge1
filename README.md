@@ -1,4 +1,7 @@
-write your after
+go to git create your repository
+copy ssh link from the code tab
+go to your terminal and clone by running git clone and paste the url and run it
+after that
 
 inputGrade-variable for the input Grade
 
