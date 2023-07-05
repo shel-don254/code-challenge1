@@ -11,13 +11,12 @@ function gradeMarks(marks) {
       grade = "C";
     } else if (marks >= 40 && marks <= 49) {
       grade = "D";
-    } else if (marks < 40 && marks >= 0) {
+    } else if (marks >= 0 && marks < 40) {
       grade = "E";
-
-      return `Grade:${grade}`;
     } else {
       return "invalid input!";
     }
+    return `Grade:${grade}`;
   }
 }
 

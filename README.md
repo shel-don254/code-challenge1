@@ -1,17 +1,38 @@
-go to git create your repository
-copy ssh link from the code tab
-go to your terminal and clone by running git clone and paste the url and run it
-after that
+Code Challenge
+This repository contains solutions for three code challenges: Student Grade Generator, Speed Detector, and Net Salary Calculator.
 
-inputGrade-variable for the input Grade
+Challenge 1: Student Grade Generator (Toy Problem)
+Write a program that prompts the user to input student marks. The input should be between 0 and 100. Then output the corresponding grade:
 
-inputSpeed-variable for the input Speed
+A: marks > 79
+B: 60 <= marks <= 79
+C: 50 <= marks <= 59
+D: 40 <= marks <= 49
+E: marks < 40
+Challenge 2: Speed Detector (Toy Problem)
+Write a program that takes as input the speed of a car. If the speed is less than 70, it should print "Ok". Otherwise, for every 5 km/h above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points. If the total number of demerit points exceeds 12, the program should print "License suspended".
 
-inputSalary-Variable for the Input Salary
+Challenge 3: Net Salary Calculator (Toy Problem)
+Write a program that calculates an individual's net salary. It should take inputs for basic salary and benefits and perform necessary calculations for taxes (payee), NHIF deductions, NSSF deductions, gross salary, and net salary. The tax rates and deduction rules should be based on the provided links: KRA and ARENA.
 
-your Code should come after // write Code For the Code challenge
+Project Setup
+Clone the repository:
 
-assign your output to the finalOutput variable
-YOUR README DESCRIPTION STARTS HERE
+bash
+Copy code
+git clone <repository-url>
+Navigate to the project directory:
 
-The 3 code tasks in the Code Challenge are the Student Grade Generator, Speed Detector, and Net Salary Calculation. 1: Student Grade Generator (Toy Problem), a programming challenge that asks participants to develop a tool that encourages users to provide student grades. The input range should be 0 to 100. If the marks are larger than 79, the programme must generate A; if they are between 60 and 79, the program should output B. If the marks are between 59 and 49,it should display C, D when they're between 40 and 49, as well as E if they are less than 40. Challenge 2: Speed Detector (Toy Trouble) requires the programmer to design a program that accepts the speed of a car, such as 80, as input. If the speed is below 70, "Ok" should be printed. Otherwise, it should award the driver one demerit point and print the total amount of penalty points per each 5 km/h so over posted limit of speed (70). Challenge 3: Net Salary Calculator (Toy Problem), in which the programmer must develop a program whose main function is to compute a person's Net Salary using inputs for basic pay and benefits and do the necessary calculations for the payee (i.e. tax), NHIF and NSSF deductions, gross and net salaries.
+bash
+Copy code
+cd code-challenge
+Install dependencies:
+
+Copy code
+npm install
+Author & License
+Author: [Your Name]
+
+This project is licensed under the MIT License.
+
+Please ensure you have completed all the challenges and provided the necessary documentation in the repository. Once done, submit the repository link for grading.
